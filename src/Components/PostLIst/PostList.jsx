@@ -51,12 +51,16 @@ const PostList = (props) => {
     return ( 
         props.entries.map((entry) => {
             return(
+                
                 <div className="container-fluids">
                     <div className="border-boxy">
                         <div className="post-content">
                             <h4><strong>{entry.name}</strong></h4>
                             <p></p>
                             <p>{entry.post}</p>
+                            <p></p>
+                            <p>{entry.date}</p>
+                            <p></p>
                             <div className="btn-container">
                                 <button
                                 className={`btn ${activeBtn === "like" ? "like-active" : ""}`}

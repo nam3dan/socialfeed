@@ -4,14 +4,20 @@ import './CreatePostForm.css'
 
 const AddFormEntry = (props) => {
 
+    var loadDate = new Date()
+
     const [name, setName] = useState('');
     const [post, setPost] = useState('');
+    const [date,setDate] = useState(loadDate.toLocaleDateString("en-US"));
 
     function handleSubmit(event) {
         event.preventDefault();
+        var now = new Date()
+        setDate(now.toLocaleDateString("en-US"))
         let newPost = {
             name: name,
-            post: post
+            post: post,
+            date: date,
         };
         props.addNewPost(newPost);
     }
