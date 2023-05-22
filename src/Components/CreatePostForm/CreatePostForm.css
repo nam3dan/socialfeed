@@ -1,3 +1,30 @@
 .form-grid{
     display: grid;
 }
+
+.btn-default:hover {
+    color: #0015ff;
+    background: rgba(0, 55, 255, 0.75);
+    border: 2px solid rgba(0, 55, 255, 0.75);
+  }
+
+.first-div{
+    margin-bottom: 1em;
+}
+.fluid-container{
+    margin-left: 5em;
+    margin-right: 5em;
+    background: azure;
+}
+.border-box{
+    background: white;
+    border-radius: 2em;
+    border: 10px black;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom:2em;
+
+}

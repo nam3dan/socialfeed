@@ -1,0 +1,20 @@
+.border-box{
+    background: white;
+    border-radius: 2em;
+    border: 10px black;
+    margin-left: 20em;
+    margin-right: 20em;
+    padding-top: 2em;
+    padding-bottom:2em;
+
+}
+
+.container-fluid{
+    margin-left: 5em;
+    margin-right: 5em;
+    background: azure;
+}
+
+.post-content{
+    padding-left: 5em;
+}

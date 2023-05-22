@@ -13,6 +13,7 @@ function App() {
     setPosts(tempPosts);
   }
   return (
+  <body>
     <div className="App">
       <div>
         <NavBar/>
@@ -26,6 +27,7 @@ function App() {
       
       
     </div>
+  </body>
   );
 }
 
