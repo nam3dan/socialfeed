@@ -17,10 +17,12 @@ const AddFormEntry = (props) => {
     }
 
     return ( 
-        <form className='form-grid' onSubmit={handleSubmit}>
+        <form className='form-horizontal' onSubmit={handleSubmit}>
             <div className='form-group'>
-                <label>Name</label>
-                <input type='text' value={name} onChange={(event) => setName(event.target.value)}/>
+                <label class="control-label col-sm-2" for="nameid">Name</label>
+                <div class="col-sm-10">
+                    <input type='text' value={name} id="nameid" onChange={(event) => setName(event.target.value)}/>
+                </div>
             </div>
             <div className='form-group'>
                 <label>Post</label>

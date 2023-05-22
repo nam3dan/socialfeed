@@ -1,8 +1,13 @@
 const NavBar = (Props) => {
     return ( 
-        <div>
-            <h1 style={{'margin':'1em'}}>Social<small className='text-muted'>Feed</small></h1>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <h1 style={{'margin':'1em'}}>Social<small className='text-muted'>Feed</small></h1>
+            </a>
         </div>
+    </nav>
+        
      );
 }
  
