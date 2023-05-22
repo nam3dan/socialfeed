@@ -26,7 +26,7 @@ const AddFormEntry = (props) => {
                     </div>
                     <div className='offset-lg-3'>
                         <label for="postid">Post</label>
-                        <input type='text' value={post} id="postid" style={{'margin-left': '1.5em','border-radius':'25px'}} size={40} height={50} onChange={(event) => setPost(event.target.value)}/>
+                        <input type='text' value={post} id="postid" style={{'margin-left': '1.65em','border-radius':'25px', 'line-height':'5em'}} size={40} onChange={(event) => setPost(event.target.value)}/>
                         <button className="btn btn-primary" type='submit' style={{'margin-left': '1em','boarder-radius': '25px'}}>Create</button>
                     </div>
                 </div>
