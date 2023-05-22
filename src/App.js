@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <head>
+      <h3 style={{'margin':'1em'}}>Social<small className='text-muted'>Feed</small></h3>
+      </head>
+      
     </div>
   );
 }
